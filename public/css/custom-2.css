@@ -13,7 +13,7 @@
 .testimonios-section h2 {
   color: #f0640f !important;
   text-align: center !important;
-  font-family: "Merriweather Sans" !important;
+  font-family: 'Merriweather Sans' !important;
   font-size: 36px !important;
   font-style: normal;
   font-weight: 700 !important;
@@ -32,7 +32,7 @@
   }
 }
 .testimonios-section .tp-leftarrow:before {
-  content: url("/wp-content/uploads/2024/02/chevron-left.svg") !important;
+  content: url('/public/img/chevron-left.svg') !important;
 }
 @media only screen and (max-width: 767px) {
   .testimonios-section .tp-rightarrow {
@@ -40,7 +40,7 @@
   }
 }
 .testimonios-section .tp-rightarrow:before {
-  content: url("/wp-content/uploads/2024/02/chevron-right.svg") !important;
+  content: url('/public/img/chevron-right.svg') !important;
 }
 
 @media only screen and (min-width: 1240px) {
@@ -53,11 +53,11 @@
   display: none;
 }
 
-html:not([lang=en-US]) #Footer {
-  background-image: url("/wp-content/uploads/2024/02/fondo-test.png") !important;
+html:not([lang='en-US']) #Footer {
+  background-image: url('/public/img/fondo-test.png') !important;
 }
 @media only screen and (min-width: 1600px) {
-  html:not([lang=en-US]) #Footer .widgets_wrapper {
+  html:not([lang='en-US']) #Footer .widgets_wrapper {
     padding: 220px 0px 0px 0px !important;
   }
 }

@@ -874,10 +874,6 @@ html,body{overflow-x:hidden}
 	/* Footer --------------- */
 
 	#Footer .widgets_wrapper.center{text-align:center}
-	#Footer .footer_copy{text-align:center}
-	#Footer .footer_copy .copyright{float:none;margin:0 0 10px}
-	#Footer .footer_copy .social{float:none;margin:0}
-	#Footer .footer_copy .social-menu{float:none;margin:0}
 
 	/* Footer | Sliding */
 
