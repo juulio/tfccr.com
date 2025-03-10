@@ -3445,3 +3445,8 @@ select:focus {
 form input.display-none {
   display: none !important;
 }
+
+/* Custom styles for Slick Slider */
+.header-slider .slick-slide {
+  position: relative;
+}
