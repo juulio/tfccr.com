@@ -7,24 +7,6 @@
       src="https://www.googletagmanager.com/gtag/destination?id=AW-11343859802&amp;l=dataLayer&amp;cx=c&amp;gtm=45je5362v9137924772za200zb9166399026&amp;tag_exp=102015665~102067808~102482433~102539968~102587591~102640600~102717422~102788824~102825837"
     ></script>
     <script
-      type="text/javascript"
-      async=""
-      src="https://snap.licdn.com/li.lms-analytics/insight.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=G-3VQ9K103MH&amp;l=dataLayer&amp;cx=c&amp;gtm=45He5362v9166399026za200&amp;tag_exp=102067808~102482433~102539968~102587591~102640600~102717422~102788824~102825837"
-    ></script>
-    <script
-      type="text/javascript"
-      async=""
-      charset="utf-8"
-      src="https://www.gstatic.com/recaptcha/releases/EGO3I7Q26cZ-jBw3BEtzIx7-/recaptcha__en.js"
-      crossorigin="anonymous"
-      integrity="sha384-61VR//KO5vDNAFE1O0P7MzEOKj68zRELxJeYIL5DD4Cj1hdU5Cro7XZfUD04Ca7S"
-    ></script>
-    <script
       async=""
       src="https://www.googletagmanager.com/gtm.js?id=GTM-TSWFXCCZ"
     ></script>
@@ -1124,15 +1106,14 @@
                                 data-idcheck="true"
                                 >Agende su cita
                               </rs-layer></rs-layer-wrap
-                            ><!--
-							--></rs-group
-                          ></rs-group-wrap
-                        ><!--
--->
+                            ><!-- -->
+                          </rs-group></rs-group-wrap
+                        ><!---->
                       </rs-slide>
                     </rs-slides></rs-carousel-wrap
                   ></rs-module
-                ><rs-carousel-space></rs-carousel-space>
+                >
+                <rs-carousel-space></rs-carousel-space>
 
                 <rs-carousel-space></rs-carousel-space></rs-module-wrap
               ><rs-fw-forcer style="height: 639px"></rs-fw-forcer
@@ -1141,8 +1122,6 @@
           </div>
         </header>
       </div>
-
-      <!-- mfn_hook_content_before --><!-- mfn_hook_content_before -->
 
       <div id="Content" role="main">
         <div class="content_wrapper clearfix">
@@ -2830,28 +2809,10 @@
                   </div>
                 </div>
               </div>
-              <div class="section the_content has_content">
-                <div class="section_wrapper">
-                  <div class="the_content_wrapper">
-                    <p
-                      class="has-black-color has-text-color has-small-font-size"
-                    ></p>
-                  </div>
-                </div>
-              </div>
-              <div class="section section-page-footer">
-                <div class="section_wrapper clearfix">
-                  <div class="column one page-pager">
-                    <div class="mcb-column-inner"></div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- mfn_hook_content_after --><!-- mfn_hook_content_after -->
 
       <footer id="Footer" class="clearfix mfn-footer" role="contentinfo">
         <div class="widgets_wrapper">
@@ -2935,8 +2896,6 @@
           </div>
         </div>
       </footer>
-
-      <!-- End Footer Template -->
     </div>
 
     <div id="body_overlay"></div>
@@ -3020,11 +2979,6 @@
       type="text/css"
       media="all"
     />
-    <style id="core-block-supports-inline-css" type="text/css">
-      .wp-container-3.wp-container-3 {
-        flex-wrap: nowrap;
-      }
-    </style>
     <link
       rel="stylesheet"
       id="rs-plugin-settings-css"
@@ -3035,167 +2989,12 @@
 
     <script
       type="text/javascript"
-      src="./js/rs6.min.js"
+      src="./public/js/rs6.min.js"
       defer=""
       async=""
       id="revmin-js"
     ></script>
 
-    <script id="rs-initialisation-scripts">
-      var tpj = jQuery
-
-      var revapi1, revapi3
-
-      if (window.RS_MODULES === undefined) window.RS_MODULES = {}
-      if (RS_MODULES.modules === undefined) RS_MODULES.modules = {}
-      RS_MODULES.modules['revslider11'] = {
-        once:
-          RS_MODULES.modules['revslider11'] !== undefined
-            ? RS_MODULES.modules['revslider11'].once
-            : undefined,
-        init: function () {
-          window.revapi1 =
-            window.revapi1 === undefined ||
-            window.revapi1 === null ||
-            window.revapi1.length === 0
-              ? document.getElementById('rev_slider_1_1')
-              : window.revapi1
-          if (
-            window.revapi1 === null ||
-            window.revapi1 === undefined ||
-            window.revapi1.length == 0
-          ) {
-            window.revapi1initTry =
-              window.revapi1initTry === undefined
-                ? 0
-                : window.revapi1initTry + 1
-            if (window.revapi1initTry < 20)
-              requestAnimationFrame(function () {
-                RS_MODULES.modules['revslider11'].init()
-              })
-            return
-          }
-          window.revapi1 = jQuery(window.revapi1)
-          if (window.revapi1.revolution == undefined) {
-            revslider_showDoubleJqueryError('rev_slider_1_1')
-            return
-          }
-          revapi1.revolutionInit({
-            revapi: 'revapi1',
-            sliderType: 'carousel',
-            DPR: 'dpr',
-            sliderLayout: 'fullwidth',
-            visibilityLevels: '1240,1240,778,480',
-            gridwidth: '1920,1920,778,480',
-            gridheight: '821,821,500,514',
-            lazyType: 'smart',
-            perspective: 600,
-            perspectiveType: 'global',
-            editorheight: '821,439,500,514',
-            responsiveLevels: '1240,1240,778,480',
-            progressBar: { disableProgressBar: true },
-            navigation: {
-              wheelCallDelay: 1000,
-              onHoverStop: false,
-              bullets: {
-                enable: true,
-                tmp: '',
-                style: 'hesperiden',
-              },
-            },
-            viewPort: {
-              global: true,
-              globalDist: '-200px',
-              enable: false,
-            },
-            fallbacks: {
-              allowHTML5AutoPlayOnAndroid: true,
-            },
-          })
-        },
-      } // End of RevInitScript
-
-      if (window.RS_MODULES === undefined) window.RS_MODULES = {}
-      if (RS_MODULES.modules === undefined) RS_MODULES.modules = {}
-      RS_MODULES.modules['revslider32'] = {
-        once:
-          RS_MODULES.modules['revslider32'] !== undefined
-            ? RS_MODULES.modules['revslider32'].once
-            : undefined,
-        init: function () {
-          window.revapi3 =
-            window.revapi3 === undefined ||
-            window.revapi3 === null ||
-            window.revapi3.length === 0
-              ? document.getElementById('rev_slider_3_2')
-              : window.revapi3
-          if (
-            window.revapi3 === null ||
-            window.revapi3 === undefined ||
-            window.revapi3.length == 0
-          ) {
-            window.revapi3initTry =
-              window.revapi3initTry === undefined
-                ? 0
-                : window.revapi3initTry + 1
-            if (window.revapi3initTry < 20)
-              requestAnimationFrame(function () {
-                RS_MODULES.modules['revslider32'].init()
-              })
-            return
-          }
-          window.revapi3 = jQuery(window.revapi3)
-          if (window.revapi3.revolution == undefined) {
-            revslider_showDoubleJqueryError('rev_slider_3_2')
-            return
-          }
-          revapi3.revolutionInit({
-            revapi: 'revapi3',
-            sliderType: 'carousel',
-            DPR: 'dpr',
-            visibilityLevels: '1240,1240,1240,480',
-            gridwidth: '1240,1240,1240,480',
-            gridheight: '500,500,500,395',
-            lazyType: 'smart',
-            perspective: 600,
-            perspectiveType: 'global',
-            editorheight: '500,768,960,395',
-            responsiveLevels: '1240,1240,1240,480',
-            carousel: {
-              infinity: true,
-              maxVisibleItems: 1,
-            },
-            progressBar: { disableProgressBar: true },
-            navigation: {
-              wheelCallDelay: 1000,
-              onHoverStop: false,
-              arrows: {
-                enable: true,
-                tmp: '<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
-                style: 'zeus',
-                left: {
-                  h_offset: 30,
-                },
-                right: {
-                  h_offset: 30,
-                },
-              },
-            },
-            viewPort: {
-              global: true,
-              globalDist: '-200px',
-              enable: false,
-            },
-            fallbacks: {
-              allowHTML5AutoPlayOnAndroid: true,
-            },
-          })
-        },
-      } // End of RevInitScript
-
-      if (window.RS_MODULES.checkMinimal !== undefined) {
-        window.RS_MODULES.checkMinimal()
-      }
-    </script>
+    <script src="./public/js/init.js"></script>
   </body>
 </html>
