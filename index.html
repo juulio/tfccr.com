@@ -320,14 +320,11 @@
           </div>
           <div class="header-slider tfc-slider">
             <div>
-              <img
-                src="./public/img/slider_asesoria_financiera.webp"
-                width="1478"
-                height="632"
-              />
+              <img src="./public/img/slider_asesoria_financiera.webp" />
               <h2>
-                asesoria financiera y estratégica para equipos gerenciales y
-                empresarios
+                Asesoria financiera y<br />
+                estratégica para equipos<br />
+                gerenciales y empresarios
               </h2>
             </div>
             <div>
@@ -1188,7 +1185,22 @@
     <script type="text/javascript" src="./public/js/slick/slick.js"></script>
     <script>
       $(document).ready(function () {
-        $('.header-slider').slick({ dots: true, autoplay: true })
+        $('.header-slider').slick({
+          dots: true,
+          autoplay: false,
+          arrows: false,
+          width: 1478,
+          height: 632,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                // infinite: true,
+                // dots: true,
+              },
+            },
+          ],
+        })
       })
     </script>
   </body>

@@ -3449,4 +3449,38 @@ form input.display-none {
 /* Custom styles for Slick Slider */
 .header-slider .slick-slide {
   position: relative;
+  height: 42vw;
+  min-height: 580px;
+}
+
+.slick-dots {
+  top: 36vw;
+}
+
+.header-slider .slick-dots li.slick-active button:before,
+.header-slider .slick-dots li.slick-active button:hover {
+  color: #f0640f;
+}
+
+.slick-dots button {
+  box-shadow: none;
+}
+
+.header-slider .slick-dots li {
+  margin: 0;
+}
+
+.header-slider .slick-dots li button:before {
+  font-size: 12px;
+}
+
+.header-slider h2 {
+  position: absolute;
+  color: white;
+  top: 113px;
+  z-index: 7;
+  left: 155px;
+  text-align: left;
+  vertical-align: top;
+  width: 1045px;
 }
