@@ -3453,6 +3453,10 @@ form input.display-none {
   min-height: 580px;
 }
 
+.header-slider .slick-slide img {
+  width: 100%;
+}
+
 .slick-dots {
   top: 36vw;
 }
