@@ -128,14 +128,6 @@ body:not(.template-slider) #Header {
   border: 2px solid #8e0047;
 }
 
-#Top_bar #logo .logo-main {
-  width: 86% !important;
-}
-
-#Top_bar #logo .logo-sticky {
-  width: 100% !important;
-}
-
 #Top_bar .menu > li > a span:not(.description) {
   padding: 0 37px;
 
