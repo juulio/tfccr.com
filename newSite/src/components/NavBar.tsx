@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { HamburgerMenuIcon } from '@radix-ui/react-icons'
+import { HamburgerMenuIcon, Cross2Icon } from '@radix-ui/react-icons'
 import './NavBar.css'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
@@ -18,13 +18,18 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        {/* Logo Image (Left Side) */}
+        {/* Logo Image */}
         <a href="/" className="logo">
           <img src="/logo.svg" alt="Logo" className="logo-img" />
         </a>
+
         {/* Hamburger Menu Button (Mobile) */}
         <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-          <HamburgerMenuIcon width={24} height={24} />
+          {isOpen ? (
+            <Cross2Icon style={{ color: '#8e0047', fontSize: '30px' }} />
+          ) : (
+            <HamburgerMenuIcon style={{ color: '#8e0047', fontSize: '30px' }} />
+          )}
         </button>
 
         {/* Menu Items */}
@@ -48,6 +53,39 @@ const Navbar: React.FC = () => {
             </button>
           </li>
         </ul>
+
+        {/* <div className="hamburger-menu" onClick={toggleMenu}>
+          <div
+            className={`line ${isOpen ? 'open' : ''}`}
+            style={{ backgroundColor: '#8e0047' }}
+          ></div>
+          <div
+            className={`line ${isOpen ? 'open' : ''}`}
+            style={{ backgroundColor: '#8e0047' }}
+          ></div>
+          <div
+            className={`line ${isOpen ? 'open' : ''}`}
+            style={{ backgroundColor: '#8e0047' }}
+          ></div>
+        </div> */}
+
+        {/* Slide-in Menu */}
+        <div className={`side-menu ${isOpen ? 'open' : ''}`}>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li className="language-toggle">
+              <button>EN / ES</button>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   )

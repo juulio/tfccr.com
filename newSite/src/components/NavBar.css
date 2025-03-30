@@ -2,6 +2,11 @@
 .navbar {
   background-color: #fff;
   padding: 15px 20px;
+  position: relative;
+  z-index: 10;
+  /* display: flex; 
+  justify-content: space-between;
+  align-items: center;*/
 }
 
 .nav-container {
@@ -53,10 +58,10 @@
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 20px;
-    background-color: #333;
+    right: 0;
     padding: 10px;
     border-radius: 5px;
+    border: solid 2px black;
   }
 
   .nav-links.open {
@@ -83,4 +88,54 @@
 .flag-icon {
   width: 20px;
   height: 14px;
+}
+
+/********************/
+/* Basic navbar styles */
+
+/* Hamburger icon - lines */
+
+/* Side menu (initially hidden, will slide in when toggled) */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  transition: right 0.3s ease;
+  padding-top: 60px;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+/* Menu items in the side menu */
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.side-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+/* Responsive design - menu and icon */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .logo {
+    font-size: 20px;
+  }
 }
