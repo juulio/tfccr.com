@@ -4,18 +4,18 @@ import { initReactI18next } from 'react-i18next'
 const resources = {
   en: {
     translation: {
-      home: 'Home',
-      about: 'About',
-      contact: 'Contact',
-      language: 'Language',
+      about: 'About Us',
+      services: 'Services',
+      testimonials: 'Testimonials',
+      contact: 'Contact Us',
     },
   },
   es: {
     translation: {
-      home: 'Inicio',
-      about: 'Acerca',
-      contact: 'Contacto',
-      language: 'Idioma',
+      about: 'Acerca de',
+      services: 'Servicios',
+      testimonials: 'Testimonios',
+      contact: 'Contáctenos',
     },
   },
 }

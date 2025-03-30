@@ -35,10 +35,13 @@ const Navbar: React.FC = () => {
         {/* Menu Items */}
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
           <li>
-            <a href="#">{t('home')}</a>
+            <a href="#">{t('about')}</a>
           </li>
           <li>
-            <a href="#">{t('about')}</a>
+            <a href="#">{t('services')}</a>
+          </li>
+          <li>
+            <a href="#">{t('testimonials')}</a>
           </li>
           <li>
             <a href="#">{t('contact')}</a>
@@ -73,13 +76,13 @@ const Navbar: React.FC = () => {
         <div className={`side-menu ${isOpen ? 'open' : ''}`}>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#about Us">About</a>
             </li>
             <li>
               <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact-us">Contact</a>
             </li>
             <li className="language-toggle">
               <button>EN / ES</button>
