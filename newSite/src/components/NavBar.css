@@ -1,20 +1,3 @@
-.slider-container {
-  width: 80%;
-  margin: auto;
-}
-
-.slick-slide img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-/* Media Query for Mobile */
-@media (max-width: 768px) {
-  .slider-container {
-    width: 100%;
-  }
-}
-
 /* Navbar styles */
 .navbar {
   background-color: #333;

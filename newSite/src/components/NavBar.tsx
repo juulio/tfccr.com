@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { HamburgerMenuIcon } from '@radix-ui/react-icons'
+import './NavBar.css'
 
 const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation()
