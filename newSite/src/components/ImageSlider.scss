@@ -6,7 +6,12 @@
   position: relative;
 
   h2 {
+    left: 8vw;
+    top: 6.944vw;
     color: #fff;
+    font-weight: 700;
+    font-size: 2.833vw;
+    line-height: 3.837vw;
     position: absolute;
   }
   & img {
@@ -15,11 +20,35 @@
     /* transform: scale(1.05); Scales the image by 1.5 times */
     /* transition: transform 0.3s ease-in-out; */
   }
+
+  #sliderElement00 h2 {
+    width: 37.531vw;
+  }
+
+  #sliderElement01 h2 {
+    width: 75.063vw;
+  }
+
+  #sliderElement02 h2 {
+    width: 71.531vw;
+  }
 }
 
 /* Media Query for Mobile */
 @media (max-width: 768px) {
   .slider-container {
     width: 100%;
+  }
+}
+
+/* Media Query for Desktop Large, max width of the website */
+@media (min-width: 1200px) {
+  .slick-slide {
+    h2 {
+      width: 450px;
+      top: 111.1px;
+      left: 128px;
+      font-size: 44.4px;
+    }
   }
 }
