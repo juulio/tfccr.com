@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { HamburgerMenuIcon, Cross2Icon } from '@radix-ui/react-icons'
-import './NavBar.css'
+import './NavBar.scss'
 import transcendingLogo from '/logo.svg'
 import spanishFlag from '/es-flag.svg'
 import englishFlag from '/en-flag.svg'

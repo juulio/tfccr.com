@@ -1,0 +1,25 @@
+.slider-container {
+  margin: auto;
+}
+
+.slick-slide {
+  position: relative;
+
+  h2 {
+    color: #fff;
+    position: absolute;
+  }
+  & img {
+    width: 100%;
+
+    /* transform: scale(1.05); Scales the image by 1.5 times */
+    /* transition: transform 0.3s ease-in-out; */
+  }
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .slider-container {
+    width: 100%;
+  }
+}

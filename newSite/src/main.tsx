@@ -4,7 +4,7 @@ import App from './App.tsx'
 
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import './reset.css' // Import CSS Reset
+import './reset.scss' // Import CSS Reset
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
