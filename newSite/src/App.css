@@ -3,6 +3,11 @@ a {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 h1 {
   border: solid 1px red;
   display: block;

@@ -2,8 +2,9 @@ import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { HamburgerMenuIcon, Cross2Icon } from '@radix-ui/react-icons'
 import './NavBar.css'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import transcendingLogo from '/logo.svg'
+import spanishFlag from '/es-flag.svg'
+import englishFlag from '/en-flag.svg'
 
 const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation()
@@ -20,7 +21,7 @@ const Navbar: React.FC = () => {
       <div className="nav-container">
         {/* Logo Image */}
         <a href="/" className="logo">
-          <img src="/logo.svg" alt="Logo" className="logo-img" />
+          <img src={transcendingLogo} alt="Logo" className="logo-img" />
         </a>
 
         {/* Hamburger Menu Button (Mobile) */}
@@ -49,7 +50,7 @@ const Navbar: React.FC = () => {
           <li>
             <button className="lang-btn" onClick={toggleLanguage}>
               <img
-                src={i18n.language === 'en' ? '/es-flag.svg' : '/en-flag.svg'}
+                src={i18n.language === 'en' ? spanishFlag : englishFlag}
                 alt="flag"
                 className="flag-icon"
               />

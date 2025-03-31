@@ -1,11 +1,13 @@
 .slider-container {
   margin: auto;
-  border: solid 2px red;
 }
 
 .slick-slide img {
   width: 100%;
   border-radius: 10px;
+
+  /* transform: scale(1.05); Scales the image by 1.5 times */
+  /* transition: transform 0.3s ease-in-out; */
 }
 
 /* Media Query for Mobile */
