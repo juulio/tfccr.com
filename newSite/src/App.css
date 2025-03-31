@@ -2,3 +2,9 @@ body,
 a {
   font-family: 'Merriweather Sans', sans-serif;
 }
+
+h1 {
+  border: solid 1px red;
+  display: block;
+  background: green;
+}
