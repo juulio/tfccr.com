@@ -24,39 +24,45 @@ const Navbar: React.FC = () => {
           <img src={transcendingLogo} alt="Logo" className="logo-img" />
         </a>
 
-        {/* Hamburger Menu Button (Mobile) */}
-        <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? (
-            <Cross2Icon style={{ color: '#8e0047', fontSize: '30px' }} />
-          ) : (
-            <HamburgerMenuIcon style={{ color: '#8e0047', fontSize: '30px' }} />
-          )}
-        </button>
+        <div id="body-overlay" className={`${isOpen ? 'open' : ''}`}></div>
 
-        {/* Menu Items */}
-        <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li>
-            <a href="#">{t('about')}</a>
-          </li>
-          <li>
-            <a href="#">{t('services')}</a>
-          </li>
-          <li>
-            <a href="#">{t('testimonials')}</a>
-          </li>
-          <li>
-            <a href="#">{t('contact')}</a>
-          </li>
-          <li>
-            <button className="lang-btn" onClick={toggleLanguage}>
-              <img
-                src={i18n.language === 'en' ? spanishFlag : englishFlag}
-                alt="flag"
-                className="flag-icon"
+        <div className={`nav-links ${isOpen ? 'open' : ''}`}>
+          {/* Hamburger Menu Button (Mobile) */}
+          <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? (
+              <Cross2Icon style={{ color: '#8e0047', fontSize: '30px' }} />
+            ) : (
+              <HamburgerMenuIcon
+                style={{ color: '#8e0047', fontSize: '30px' }}
               />
-            </button>
-          </li>
-        </ul>
+            )}
+          </button>
+
+          {/* Menu Items */}
+          <ul>
+            <li>
+              <a href="#">{t('about')}</a>
+            </li>
+            <li>
+              <a href="#">{t('services')}</a>
+            </li>
+            <li>
+              <a href="#">{t('testimonials')}</a>
+            </li>
+            <li>
+              <a href="#">{t('contact')}</a>
+            </li>
+            <li>
+              <button className="lang-btn" onClick={toggleLanguage}>
+                <img
+                  src={i18n.language === 'en' ? spanishFlag : englishFlag}
+                  alt="flag"
+                  className="flag-icon"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
 
         {/* <div className="hamburger-menu" onClick={toggleMenu}>
           <div
@@ -74,7 +80,7 @@ const Navbar: React.FC = () => {
         </div> */}
 
         {/* Slide-in Menu */}
-        <div className={`side-menu ${isOpen ? 'open' : ''}`}>
+        {/* <div className={`side-menu ${isOpen ? 'open' : ''}`}>
           <ul>
             <li>
               <a href="#about Us">About</a>
@@ -89,7 +95,7 @@ const Navbar: React.FC = () => {
               <button>EN / ES</button>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </nav>
   )
