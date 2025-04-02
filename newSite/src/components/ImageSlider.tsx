@@ -16,6 +16,7 @@ const ImageSlider: React.FC = () => {
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 3000,
+    arrows: false,
     responsive: [
       {
         breakpoint: 768, // Mobile
