@@ -8,6 +8,11 @@ const resources = {
       services: 'Services',
       testimonials: 'Testimonials',
       contact: 'Contact Us',
+      slide01:
+        'Financial and strategic consulting for management teams and entrepreneurs',
+      slide02:
+        'Advice, planning and guidance on implementation of courses of action that add value to organizations',
+      slide03: 'Our experience and expertise at your service',
     },
   },
   es: {
@@ -16,6 +21,13 @@ const resources = {
       services: 'Servicios',
       testimonials: 'Testimonios',
       contact: 'Contáctenos',
+      slide01:
+        'Asesoría financiera y estratégica para equipos gerenciales y empresarios',
+      slide02:
+        'Recomendación, planificación y coordinación de la ejecución de cursos de acción que crean valor para las organizaciones',
+
+      slide03:
+        'Toda nuestra experiencia puesta al servicio de nuestros clientes',
     },
   },
 }

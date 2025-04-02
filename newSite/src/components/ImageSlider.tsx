@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from 'react-slick'
+import { useTranslation } from 'react-i18next'
+
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './ImageSlider.scss'
@@ -8,13 +10,15 @@ import slider_ejecucionCursos from '/slider_ejecucion_cursos.webp'
 import slider_experiencia from '/slider_experiencia.webp'
 
 const ImageSlider: React.FC = () => {
+  const { t } = useTranslation()
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3000,
     arrows: false,
     responsive: [
@@ -33,25 +37,15 @@ const ImageSlider: React.FC = () => {
       <Slider {...settings}>
         <div id="sliderElement00">
           <img src={slider_asesoriaFinanciera} alt="Slide 1" />
-          <h2>
-            Asesor&iacute;a financiera y estrat&eacute;gica para equipos
-            gerenciales y empresarios
-          </h2>
+          <h2>{t('slide01')}</h2>
         </div>
         <div id="sliderElement01">
           <img src={slider_ejecucionCursos} alt="Slide 2" />
-          <h2>
-            Recomendación, planificación y coordinación de la ejecución de
-            cursos de acción que crean valor para las organizaciones
-          </h2>
+          <h2>{t('slide02')}</h2>
         </div>
         <div id="sliderElement02">
           <img src={slider_experiencia} alt="Slide 3" />
-          <h2>
-            Toda nuestra experiencia puesta al servicio de
-            <br />
-            nuestros clientes
-          </h2>
+          <h2>{t('slide03')}</h2>
         </div>
       </Slider>
     </div>
