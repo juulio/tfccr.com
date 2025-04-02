@@ -29,13 +29,7 @@ const Navbar: React.FC = () => {
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
           {/* Hamburger Menu Button (Mobile) */}
           <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? (
-              <Cross2Icon style={{ color: '#8e0047', fontSize: '30px' }} />
-            ) : (
-              <HamburgerMenuIcon
-                style={{ color: '#8e0047', fontSize: '30px' }}
-              />
-            )}
+            {isOpen ? <Cross2Icon /> : <HamburgerMenuIcon />}
           </button>
 
           {/* Menu Items */}
@@ -63,39 +57,6 @@ const Navbar: React.FC = () => {
             </li>
           </ul>
         </div>
-
-        {/* <div className="hamburger-menu" onClick={toggleMenu}>
-          <div
-            className={`line ${isOpen ? 'open' : ''}`}
-            style={{ backgroundColor: '#8e0047' }}
-          ></div>
-          <div
-            className={`line ${isOpen ? 'open' : ''}`}
-            style={{ backgroundColor: '#8e0047' }}
-          ></div>
-          <div
-            className={`line ${isOpen ? 'open' : ''}`}
-            style={{ backgroundColor: '#8e0047' }}
-          ></div>
-        </div> */}
-
-        {/* Slide-in Menu */}
-        {/* <div className={`side-menu ${isOpen ? 'open' : ''}`}>
-          <ul>
-            <li>
-              <a href="#about Us">About</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#contact-us">Contact</a>
-            </li>
-            <li className="language-toggle">
-              <button>EN / ES</button>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </nav>
   )

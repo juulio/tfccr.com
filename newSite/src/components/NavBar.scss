@@ -40,8 +40,8 @@
 
 /* Hide the hamburger button on Desktop */
 .hamburger {
-  top: 30px;
-  right: 30px;
+  top: 25px;
+  right: 5px;
   z-index: 5;
   border: none;
   display: none;
@@ -49,6 +49,11 @@
   color: #8e0047;
   background: none;
   position: absolute;
+
+  svg {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 #body-overlay {
@@ -107,7 +112,7 @@
       height: 100%;
 
       .hamburger {
-        right: 55px;
+        right: 25px;
       }
 
       ul {
