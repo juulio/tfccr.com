@@ -52,17 +52,36 @@
 @media (max-width: 768px) {
   .slider-container {
     width: 100%;
+    margin-bottom: 5vw;
   }
 
   .slick-dots {
-    bottom: 10px;
+    bottom: 0.5vw;
+  }
 
-    li {
-      margin: 0;
+  .slick-slide {
+    overflow: hidden;
+    height: 60vw;
 
-      button:before {
-        font-size: 12px;
-      }
+    h2 {
+      font-size: 5vw;
+      line-height: 7vw;
+    }
+
+    #sliderElement00 h2 {
+      width: 65vw;
+    }
+
+    #sliderElement01 h2 {
+      width: 70vw;
+    }
+
+    #sliderElement02 h2 {
+      width: 71.531vw;
+    }
+
+    img {
+      transform: scale(2);
     }
   }
 }
