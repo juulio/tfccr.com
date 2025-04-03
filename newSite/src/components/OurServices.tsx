@@ -8,12 +8,27 @@ const AboutUs: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="about-us">
-      <h2>{t('titleAbout')}</h2>
-      <h3>{t('subtitleOurFirm')}</h3>
+    <div className="our-services module">
+      <h2>{t('titleServices')}</h2>
+      <h3>{t('subtitleValuation')}</h3>
       <div className="text-container">
-        <p>{t('textOurFirmLeft')}</p>
-        <p>{t('textOurFirmRight')}</p>
+        <p>{t('textValuation')}</p>
+      </div>
+      <h3>{t('subtitleMergersAndAcquisitions')}</h3>
+      <div className="text-container">
+        <p>{t('textMergersAndAcquisitions')}</p>
+      </div>
+      <h3>{t('subtitleFinancialAnalysis')}</h3>
+      <div className="text-container">
+        <p>{t('textFinancialAnalysis')}</p>
+      </div>
+      <h3>{t('subtitleBudgeting')}</h3>
+      <div className="text-container">
+        <p>{t('textBudgeting')}</p>
+      </div>
+      <h3>{t('subtitleBoardOfDirectorsConsulting')}</h3>
+      <div className="text-container">
+        <p>{t('textBoardOfDirectorsConsulting')}</p>
       </div>
       <div className="text-container">
         <img src={img_margarita} alt="Slide 1" />
