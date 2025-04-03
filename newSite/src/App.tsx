@@ -4,6 +4,7 @@ import i18n from './i18n'
 import './App.scss'
 import Navbar from './components/NavBar'
 import ImageSlider from './components/ImageSlider'
+import AboutUs from './components/AboutUs'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <main>
         <Navbar />
         <ImageSlider />
-        <h1>Acerca de</h1>
+        <AboutUs />
       </main>
     </I18nextProvider>
   )

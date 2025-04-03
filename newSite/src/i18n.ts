@@ -15,10 +15,13 @@ const resources = {
       slide03: 'Our experience and expertise at your service',
       titleAbout: 'About Us',
       subtitleOurFirm: 'Our Firm',
-      textOurFirmLeft: '',
-      textOurFirmRight: '',
+      textOurFirmLeft:
+        'Transcending is a finance consulting firm that supports executive teams in the process of making key business decisions regarding management and strategy. Through the development of models and financial data analysis, we draw conclusions, reach findings, outline opportunities, make recommendations and give answers that allow us to trace and appropriately support value creating paths that managers and shareholders can follow.',
+      textOurFirmRight:
+        'We work with and along management teams to plan and coordinate the execution of crucial projects that will, as an outcome, bring profitable and sustainable growth to companies, in the short, medium, and long term. We put at the service of our clients our valuable expertise with financial planning and analysis, as well as in mergers and acquisitions, obtained throughout years of experience working for highly renowned local and regional companies. Since 2016, we have advised companies in different sectors, such as pharmaceutical, agroindustry, logistics, technology, real state, health & fitness and commodities, ranging from startups to large regional enterprises.',
       subtitleOurTeam: 'Our Team',
-      textOurTeam: '',
+      textOurTeam:
+        'Margarita Reina, founding partner of Transcending, initiated her professional career in 2003 as an investment banking analyst in Colombia. Later, she became part of the financial advisory team to the CEO, at the holding company of the largest financial group in that country. In 2009, she began her MBA studies at INCAE. After earning her master’s degree as valedictorian, she joined one of the most prestigious investment banking firms in Costa Rica as an associate, to then assume the financial planning manager position at a regional pharmaceutical company. Since 2016, she has built up her own consulting business.',
       titleServices: 'Services',
       subtitleValuation: 'Valuation',
       textValuation: '',
