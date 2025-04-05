@@ -15,24 +15,35 @@ const resources = {
       slide03: 'Our experience and expertise at your service',
       titleAbout: 'About Us',
       subtitleOurFirm: 'Our Firm',
-      textOurFirmLeft:
-        'Transcending is a finance consulting firm that supports executive teams in the process of making key business decisions regarding management and strategy. Through the development of models and financial data analysis, we draw conclusions, reach findings, outline opportunities, make recommendations and give answers that allow us to trace and appropriately support value creating paths that managers and shareholders can follow.',
-      textOurFirmRight:
-        'We work with and along management teams to plan and coordinate the execution of crucial projects that will, as an outcome, bring profitable and sustainable growth to companies, in the short, medium, and long term. We put at the service of our clients our valuable expertise with financial planning and analysis, as well as in mergers and acquisitions, obtained throughout years of experience working for highly renowned local and regional companies. Since 2016, we have advised companies in different sectors, such as pharmaceutical, agroindustry, logistics, technology, real state, health & fitness and commodities, ranging from startups to large regional enterprises.',
+      textOurFirmLeft01:
+        'Transcending is a finance consulting firm that supports executive teams in the process of making key business decisions regarding management and strategy.',
+      textOurFirmLeft02:
+        'Through the development of models and financial data analysis, we draw conclusions, reach findings, outline opportunities, make recommendations and give answers that allow us to trace and appropriately support value creating paths that managers and shareholders can follow.',
+      textOurFirmRight01:
+        'We work with and along management teams to plan and coordinate the execution of crucial projects that will, as an outcome, bring profitable and sustainable growth to companies, in the short, medium, and long term.',
+      textOurFirmRight02:
+        'We put at the service of our clients our valuable expertise with financial planning and analysis, as well as in mergers and acquisitions, obtained throughout years of experience working for highly renowned local and regional companies.',
+      textOurFirmRight03:
+        'Since 2016, we have advised companies in different sectors, such as pharmaceutical, agroindustry, logistics, technology, real state, health & fitness and commodities, ranging from startups to large regional enterprises.',
       subtitleOurTeam: 'Our Team',
       textOurTeam:
         'Margarita Reina, founding partner of Transcending, initiated her professional career in 2003 as an investment banking analyst in Colombia. Later, she became part of the financial advisory team to the CEO, at the holding company of the largest financial group in that country. In 2009, she began her MBA studies at INCAE. After earning her master’s degree as valedictorian, she joined one of the most prestigious investment banking firms in Costa Rica as an associate, to then assume the financial planning manager position at a regional pharmaceutical company. Since 2016, she has built up her own consulting business.',
       titleServices: 'Services',
       subtitleValuation: 'Valuation',
-      textValuation: '',
+      textValuation:
+        'We develop financial valuation models that allow us to provide our clients with a market value range for the operation of their interest. Valuation can be used by shareholders to support strategic decisions, as well as in M&A transactions, to determine enterprise value ranges.',
       subtitleMergersAndAcquisitions: 'Mergers And Acquisitions',
-      textMergersAndAcquisitions: '',
+      textMergersAndAcquisitions:
+        'Partial or total acquisitions and mergers can be an inorganic source of profitable growth for companies, through fresh capital injections from investors, strategic partnerships that create synergies and add value, as well as access to complementary operations and product portfolios. We guide and accompany our clients through and at every stage of these transactions, from valuation of the target to the complete takeover of acquired operations.',
       subtitleFinancialAnalysis: 'Financial Analysis',
-      textFinancialAnalysis: '',
+      textFinancialAnalysis:
+        'We perform insightful financial diagnoses of ongoing operations, business units and variables, that lead to the revelation and meaningful understanding of challenges and struggles that companies may face. We recommend strategies and courses of action, intended to transcend them and follow a thriving path of growth, profitability, sustainability and value creation. We develop financial projection and analysis models that allow management teams to assess in advance and quantify the potential economic impact of restructuring initiatives, business alliances, as well as strategic, commercial, operating, administration and organizational investment projects.',
       subtitleBudgeting: 'Budgeting',
-      textBudgeting: '',
+      textBudgeting:
+        'We design and build annual budget models, based on business realities and requirements. These allow for a well anticipated and assertive planning of monthly operations within a fiscal term, and also give a clear and concise guide, for the management team to elaborate and execute plans, assess performance and take corrective action at the right time to unexpected scenarios that could arise, avoiding derailing from the initial objectives set in the annual budget.',
       subtitleBoardOfDirectorsConsulting: 'Board Of Directors Consulting',
-      textBoardOfDirectorsConsulting: '',
+      textBoardOfDirectorsConsulting:
+        'We act as external advisors to the board of directors, board committee members and directors, contributing through feedback, recommendations, supervision, follow up and assessment, to business growth, profitability, liquidity, solvency, sustainability and value creation, as well as the ethics of business management, through and from a financial and strategic approach.',
       titleTestimonials: 'Testimonials',
       titleContactUs: 'Contact Us',
     },

@@ -1,3 +1,4 @@
+/* General Styles */
 body,
 h1,
 h2,
@@ -26,8 +27,20 @@ h3 {
 /* Common stuff for all modules*/
 .module {
   margin-top: 5vw;
+  padding: 0 3vw;
 }
 
+/* Media Query for tablet and desktop*/
+@media (min-width: 768px) {
+  .columns-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Optional gap between columns */
+  }
+
+  .text-container-column {
+  }
+}
 /* Media Query for Desktop Large, max width of the website */
 @media (min-width: 1200px) {
   h2 {
