@@ -15,6 +15,7 @@ h2 {
   color: #f0640f;
   font-size: 2.25vw;
   font-weight: 700;
+  margin-bottom: 2.5vw;
 }
 
 h3 {
@@ -34,17 +35,19 @@ h3 {
 @media (min-width: 768px) {
   .columns-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     gap: 20px; /* Optional gap between columns */
   }
 
-  .text-container-column {
+  .column {
   }
 }
 /* Media Query for Desktop Large, max width of the website */
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
+  // @media (min-width: 1200px) {
   h2 {
     font-size: 36px;
+    margin-bottom: 40px;
   }
 
   h3 {

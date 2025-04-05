@@ -4,7 +4,9 @@ import i18n from './i18n'
 import './App.scss'
 import Navbar from './components/NavBar'
 import ImageSlider from './components/ImageSlider'
-import ModulesContainer from './components/ModulesContainer'
+import AboutUs from './components/AboutUs'
+import OurServices from './components/OurServices'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <main>
         <Navbar />
         <ImageSlider />
-        <ModulesContainer />
+        <AboutUs />
+        <OurServices />
+        <Contact />
       </main>
     </I18nextProvider>
   )
