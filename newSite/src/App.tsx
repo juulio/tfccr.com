@@ -11,13 +11,11 @@ import Contact from './components/Contact'
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-      <main>
-        <Navbar />
-        <ImageSlider />
-        <AboutUs />
-        <OurServices />
-        <Contact />
-      </main>
+      <Navbar />
+      <ImageSlider />
+      <AboutUs />
+      <OurServices />
+      <Contact />
     </I18nextProvider>
   )
 }

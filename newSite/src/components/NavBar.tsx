@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    <nav className="navbar">
+    <nav className="navbar max-width">
       <div className="nav-container">
         {/* Logo Image */}
         <a href="/" className="logo">
