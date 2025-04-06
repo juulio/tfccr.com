@@ -5,12 +5,13 @@ import img_valoracionFinanciera from '../../public/servicio_valoracion_financier
 import img_fusionesAdquisiciones from '../../public/servicio_fusiones_adquisiciones.webp'
 import img_analisisFinanciero from '../../public/servicio_analisis_financiero.webp'
 import img_presupuestacion from '../../public/servicio_presupuestacion.webp'
+import img_servicioAsesoriaJuntasDirectivas from '../../public/servicio_asesoria_juntas_directivas.webp'
 
 const AboutUs: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="our-services module">
+    <div className="our-services module max-width">
       <h2>{t('titleServices')}</h2>
       <section>
         <div className="column">
@@ -44,6 +45,9 @@ const AboutUs: React.FC = () => {
         <div className="column">
           <h3>{t('subtitleBoardOfDirectorsConsulting')}</h3>
           <p>{t('textBoardOfDirectorsConsulting')}</p>
+        </div>
+        <div className="column">
+          <img src={img_servicioAsesoriaJuntasDirectivas} alt="Slide 1" />
         </div>
       </section>
     </div>

@@ -20,4 +20,12 @@
   p {
     margin: 0 8vw;
   }
+
+  /* Media Query for Desktop Large, max width of the website */
+  @media (min-width: 1600px) {
+    h3,
+    p {
+      margin-left: 128px;
+    }
+  }
 }
