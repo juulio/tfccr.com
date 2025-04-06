@@ -1,6 +1,23 @@
 /* Our Services styles */
 .our-services {
+  h2 {
+    text-align: center;
+  }
+
   img {
     width: 100%;
+  }
+
+  section {
+    place-items: center;
+    gap: 0;
+  }
+
+  h3 {
+    margin-left: 8vw;
+  }
+
+  p {
+    margin: 0 8vw;
   }
 }
