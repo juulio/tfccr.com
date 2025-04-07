@@ -14,10 +14,10 @@ const Contact: React.FC = () => {
       <div className="bg-container">
         <section className="max-width module">
           <div className="column">
-            <img src={logo_footer} alt="Transcending Logo" />
+            <img id="logo_footer" src={logo_footer} alt="Transcending Logo" />
           </div>
           <div className="column">
-            <h4>Contact Us</h4>
+            <h4>{t('titleContactUs')}</h4>
             <p>
               <img src={svg_phone} alt="Phone" />
               <a
