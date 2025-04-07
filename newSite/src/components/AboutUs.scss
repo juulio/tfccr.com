@@ -13,10 +13,9 @@
     margin-bottom: 3vw;
   }
 
-  #ourTeam {
+  .bg-container {
     height: 32.5vw;
-    padding: 6vw 0 8vw;
-    background-size: contain;
+
     background-image: url(../../public/bg_equipo.webp);
 
     section {
@@ -26,7 +25,7 @@
 
   /* Media Query for Desktop Large, max width of the website */
   @media (min-width: 1600px) {
-    #ourTeam {
+    .bg-container {
       height: 520px;
       padding: 96px 0 128px;
     }

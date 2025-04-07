@@ -6,7 +6,7 @@ import Navbar from './components/NavBar'
 import ImageSlider from './components/ImageSlider'
 import AboutUs from './components/AboutUs'
 import OurServices from './components/OurServices'
-import Contact from './components/Contact'
+import Contact from './components/ContactUs'
 
 function App() {
   return (

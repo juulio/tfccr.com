@@ -59,6 +59,14 @@ p {
     margin-bottom: 1vw;
   }
 
+  .bg-container {
+    padding: 6vw 0 8vw;
+    background-size: contain;
+
+    section {
+      place-items: center;
+    }
+  }
   .column {
   }
 

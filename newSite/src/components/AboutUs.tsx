@@ -24,11 +24,11 @@ const AboutUs: React.FC = () => {
           </div>
         </section>
       </div>
-      <div id="ourTeam">
+      <div className="bg-container">
         <div className="max-width module">
           <section>
             <div className="column">
-              <img src={img_margarita} alt="Slide 1" />
+              <img src={img_margarita} alt="Margarita Reina" />
             </div>
             <div className="column">
               <h3>{t('subtitleOurTeam')}</h3>
