@@ -1,6 +1,7 @@
 /* Contact Us styles */
 .contact-us {
   color: #fff;
+  background-color: #f0f0f0;
 
   a {
     color: #fff;
@@ -23,7 +24,6 @@
   .bg-container {
     height: 28vw;
     padding: 6vw 0 8vw;
-    background-size: contain;
     background-image: url(../../public/bg_contact.webp);
   }
 

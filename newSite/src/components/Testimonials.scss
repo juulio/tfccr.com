@@ -1,0 +1,25 @@
+/* Testimonials styles */
+.testimonials {
+  margin-top: 5vw;
+  text-align: center;
+
+  .bg-container {
+    height: 20vw;
+    padding-top: 12vw;
+    background-image: url('../../public/bg_testimonials.webp');
+  }
+
+  section {
+    grid-template-columns: unset;
+  }
+
+  /* Media Query for Desktop Large, max width of the website */
+  @media (min-width: 1600px) {
+    margin-top: 80px;
+
+    .bg-container {
+      height: 320px;
+      padding-top: 192px;
+    }
+  }
+}

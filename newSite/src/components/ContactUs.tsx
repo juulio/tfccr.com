@@ -10,7 +10,6 @@ const Contact: React.FC = () => {
 
   return (
     <div className="contact-us">
-      <h2>{t('titleContactUs')}</h2>
       <div className="bg-container">
         <section className="max-width module">
           <div className="column">
