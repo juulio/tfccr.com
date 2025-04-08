@@ -46,6 +46,7 @@ const resources = {
         'We act as external advisors to the board of directors, board committee members and directors, contributing through feedback, recommendations, supervision, follow up and assessment, to business growth, profitability, liquidity, solvency, sustainability and value creation, as well as the ethics of business management, through and from a financial and strategic approach.',
       titleTestimonials: 'Testimonials',
       titleContactUs: 'Contact Us',
+      copyrightText: '© 2025 Transcending',
     },
   },
   es: {
@@ -94,6 +95,7 @@ const resources = {
         'Participamos como asesores externos, miembros de comités de Junta Directiva ó Directores, contribuyendo a través de retroalimentación, recomendaciones, supervisión, seguimiento y evaluación, al crecimiento, la rentabilidad, la liquidez, la solvencia, la sostenibilidad y la creación de valor en las operaciones, así como a la ética de los negocios, desde una perspectiva financiera y estratégica.',
       titleTestimonials: 'Testimonios',
       titleContactUs: 'Contáctenos',
+      copyrightText: '© 2025 Transcending',
     },
   },
 }

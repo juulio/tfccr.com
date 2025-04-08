@@ -1,0 +1,16 @@
+/* Footer styles */
+.footer {
+  height: 4vw;
+  display: grid;
+  color: #fff;
+  background-color: #8e0047;
+
+  p {
+    margin: auto;
+    letter-spacing: 0.15vw;
+  }
+
+  /* Media Query for Desktop Large, max width of the website */
+  @media (min-width: 1600px) {
+  }
+}

@@ -7,6 +7,7 @@ import ImageSlider from './components/ImageSlider'
 import AboutUs from './components/AboutUs'
 import OurServices from './components/OurServices'
 import Contact from './components/ContactUs'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutUs />
       <OurServices />
       <Contact />
+      <Footer />
     </I18nextProvider>
   )
 }
