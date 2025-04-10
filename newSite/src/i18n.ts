@@ -45,6 +45,38 @@ const resources = {
       textBoardOfDirectorsConsulting:
         'We act as external advisors to the board of directors, board committee members and directors, contributing through feedback, recommendations, supervision, follow up and assessment, to business growth, profitability, liquidity, solvency, sustainability and value creation, as well as the ethics of business management, through and from a financial and strategic approach.',
       titleTestimonials: 'Testimonials',
+      testimonialsSlider: [
+        {
+          text: 'I had the opportunity to work with Margarita for five years, during which she was part of the internal advisory team to the Presidency of Grupo Aval. During this time, I was able to appreciate her talent, the quality of her work, and the deep knowledge she acquired about the financial sector. She is a professional who brings great value to the organizations she collaborates with.',
+          name: 'Mauricio Cárdenas Müller',
+          role: 'Gerente General de la Organización Luis Carlos Sarmiento Angulo',
+        },
+        {
+          text: 'I am grateful to Margarita for her valuable contributions as an External Advisor since 2020 and as a member of the Finance Committee of our Corporate Governance since 2021. Her guidance and support in planning, controlling, and optimizing expenses have been highly significant for our company. Her analysis and diagnostics of our operations, along with her recommendations on various strategic business variables, have helped us focus our efforts on making critical decisions for the sustainability of our organization.',
+          name: 'Jaime Gurdián Moreno',
+          role: 'Director General Agrosuperior',
+        },
+        {
+          text: 'It has been a true pleasure to work alongside Margarita on various occasions and across different projects. Margarita is not only an exceptionally talented individual—her knowledge, work ethic, and dedication are truly remarkable. Beyond her unquestionable technical expertise, she consistently approaches her work with great commitment and care. Every client and colleague I’ve spoken with agrees in describing Margarita’s performance as extraordinary and exemplary.',
+          name: 'Mauricio Jenkins Coronas, Ph.D.',
+          role: 'Profesor Pleno INCAE Business School, Consultor empresarial',
+        },
+        {
+          text: 'I worked with Margarita for six months on a consulting project. She demonstrated a strong analytical capacity combined with excellent management of the company’s financial information databases. The analysis she carried out was the primary input on which we based the action plan we presented to the client.',
+          name: 'Oscar Rodríguez Ulloa',
+          role: 'Gerente General de la Organización Luis Carlos Sarmiento Angulo',
+        },
+        {
+          text: 'Margarita is one of the most serious and dedicated professionals I’ve encountered in my career. We worked together at the holding company of Colombia’s largest financial group, and every interaction with her was both an intellectual and personal privilege. It was also an opportunity to learn from her broad skill set. Her ability to transform numbers and data analysis into robust financial tools that support corporate decisions is as admirable as her discipline, clarity in communication, and fluency in designing and leading the implementation of effective business strategies.',
+          name: 'Diego Jaramillo Echeverry',
+          role: 'CFO NEORIS',
+        },
+        {
+          text: 'Working with Margarita has been essential in structuring the operations of our Karate academy business and in building its expansion plan. Her financial strategy advisory has allowed us to evolve and transform, adopting a franchise model across Central America and positioning Tamashii’s market value in USD toward a seven-figure potential. Thanks to her support, we’ve become one of the most positively impactful SMEs in the region. I wholeheartedly recommend the consulting services of Transcending Financial Consultants to entrepreneurs seeking a deep understanding of their business needs to achieve sustainable growth, optimize profitability, and maximize value.',
+          name: 'Mauricio Carranza Delgado',
+          role: 'Director Tamashii Martial Arts',
+        },
+      ],
       titleContactUs: 'Contact Us',
       copyrightText: '© 2025 Transcending',
     },
@@ -94,6 +126,38 @@ const resources = {
       textBoardOfDirectorsConsulting:
         'Participamos como asesores externos, miembros de comités de Junta Directiva ó Directores, contribuyendo a través de retroalimentación, recomendaciones, supervisión, seguimiento y evaluación, al crecimiento, la rentabilidad, la liquidez, la solvencia, la sostenibilidad y la creación de valor en las operaciones, así como a la ética de los negocios, desde una perspectiva financiera y estratégica.',
       titleTestimonials: 'Testimonios',
+      testimonialsSlider: [
+        {
+          text: 'Tuve la oportunidad de trabajar con Margarita durante 5 años, en los que hizo parte del equipo de asesoría interna de la Presidencia de Grupo Aval. En este periodo pude apreciar su talento, la calidad de su trabajo y el profundo conocimiento que adquirió sobre el sector financiero. Es una profesional que aporta gran valor a las organizaciones con las cuales colabora.',
+          name: 'Mauricio Cárdenas Müller',
+          role: 'Gerente General de la Organización Luis Carlos Sarmiento Angulo',
+        },
+        {
+          text: 'Agradezco a Margarita por su valiosa gestión en calidad de Asesora Externa desde 2020 y como miembro del Comité de Finanzas de nuestro Gobierno Corporativo desde 2021. Su guía y acompañamiento en la planificación, el control y la optimización del gasto, han sido de gran relevancia para nuestra compañía. Asimismo, su trabajo de análisis y diagnóstico de nuestras operaciones y sus recomendaciones sobre diferentes variables estratégicas del negocio, nos han permitido enfocar nuestros esfuerzos en la toma de decisiones críticas para la sostenibilidad de nuestra empresa.',
+          name: 'Jaime Gurdián Moreno',
+          role: 'Director General Agrosuperior',
+        },
+        {
+          text: 'Haber podido trabajar al lado de Margarita en distintas oportunidades y en diferentes proyectos ha sido un verdadero placer. Margarita no es solamente una persona excepcionalmente talentosa, sino que su conocimiento, su capacidad de trabajo y su ética son ciertamente notables. Además de un conocimiento técnico profundo que no deja lugar a dudas, Margarita siempre hace su trabajo con un enorme compromiso y gran dedicación. Todos los clientes y colaboradores con los que he tenido la oportunidad de intercambiar opiniones, concuerdan en calificar el desempeño de Margarita como extraordinario y ejemplar.',
+          name: 'Mauricio Jenkins Coronas, Ph.D.',
+          role: 'Profesor Pleno INCAE Business School, Consultor empresarial',
+        },
+        {
+          text: 'Trabajé con Margarita durante 6 meses en un proyecto de consultoría. Ella demostró contar con una capacidad analítica fuerte unida a un muy buen manejo de las bases de datos de la información financiera de la empresa. El análisis realizado, fue el principal insumo en el cual nos basamos para elaborar el plan de acción presentado al cliente.',
+          name: 'Oscar Rodríguez Ulloa',
+          role: 'Gerente General de la Organización Luis Carlos Sarmiento Angulo',
+        },
+        {
+          text: 'Margarita es una de las profesionales más serias y comprometidas que he conocido a lo largo de mi carrera. Trabajamos juntos en la holding company del mayor grupo financiero de Colombia e interactuar con ella siempre fue un privilegio a nivel intelectual y personal, así como una oportunidad para aprender de sus amplias capacidades. Su habilidad para convertir cifras y análisis numéricos en robustas herramientas financieras para soportar decisiones corporativas es tan admirable como su disciplina, su claridad comunicativa y su fluidez para diseñar y liderar la implementación de acertadas estrategias empresariales',
+          name: 'Diego Jaramillo Echeverry',
+          role: 'CFO NEORIS',
+        },
+        {
+          text: 'Trabajar con Margarita ha sido fundamental para ordenar la operación de nuestro negocio de academias de Karate y construir su plan de expansión. Su asesoría en estrategias financieras nos ha permitido trascender y transformarnos, siguiendo un modelo de franquicias en la región centroamericana y llevando el valor de mercado en dólares de Tamashii hacia un potencial de siete cifras. Gracias a su ayuda, nos hemos posicionado como una de las pymes de mayor impacto positivo en la región. Recomiendo sin reservas la asesoría de Transcending Financial Consultants, a aquellos empresarios que deseen comprender a fondo las necesidades de su negocio para lograr un crecimiento sostenible, la optimización de su rentabilidad y la maximización de su valor.',
+          name: 'Mauricio Carranza Delgado',
+          role: 'Director Tamashii Martial Arts',
+        },
+      ],
       titleContactUs: 'Contáctenos',
       copyrightText: '© 2025 Transcending',
     },
