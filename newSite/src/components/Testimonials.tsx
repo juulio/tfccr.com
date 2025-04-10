@@ -9,7 +9,7 @@ const Testimonials: React.FC = () => {
   const { t, ready } = useTranslation()
   if (!ready) return 'loading translations...'
 
-  const testimonials = t('testimonialsSlider', {
+  const testimonials: object = t('testimonialsSlider', {
     returnObjects: true,
   })
   const settings = {
@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
         <div className="slider-container max-width">
           <h2>Testimonials</h2>
           <Slider {...settings}>
-            {testimonials.map((testimonial, index) => (
+            {testimonials.map((testimonial: string, index: number) => (
               <div key={index}>
                 <p>{testimonial.text}</p>
                 <p className="testimonial-person-name">{testimonial.name}</p>
