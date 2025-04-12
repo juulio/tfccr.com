@@ -22,7 +22,7 @@
   }
 
   .bg-container {
-    height: 28vw;
+    height: 15vw;
     padding: 6vw 0 8vw;
     background-image: url(../../public/bg_contact.webp);
   }
@@ -63,6 +63,11 @@
 
     #logo_footer {
       width: 320px;
+    }
+
+    .bg-container {
+      height: 240px;
+      padding: 96px 0 128px;
     }
   }
 }
