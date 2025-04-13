@@ -12,17 +12,19 @@ main {
 }
 
 h2 {
+  margin-top: 3vw;
   color: #f0640f;
-  font-size: 2.25vw;
   font-weight: 700;
-  margin-bottom: 2.5vw;
+  font-size: 8.372vw;
+  margin-bottom: 4.65vw;
 }
 
 h3 {
-  color: #8e0047;
-  font-size: 1.67vw;
-  line-height: 3.33vw;
   font-weight: 400;
+  color: #8e0047;
+  font-size: 5.116vw;
+  line-height: 3.33vw;
+  margin-bottom: 3.488vw;
 }
 
 h4 {
@@ -31,7 +33,11 @@ h4 {
 }
 
 p {
+  font-weight: 300;
+  font-size: 3.721vw;
   text-align: justify;
+  line-height: 4.419vw;
+  margin-bottom: 3.488vw;
 }
 
 /* Common stuff for all modules*/
@@ -41,13 +47,18 @@ p {
 }
 
 .module {
-  margin-top: 5vw;
-  padding: 0 3vw;
+  padding: 0 7.674vw;
 }
 
 /* Media Query for tablet and desktop*/
 @media (min-width: 768px) {
+  h2 {
+    font-size: 2.25vw;
+    margin-bottom: 2.5vw;
+  }
+
   h3 {
+    font-size: 1.67vw;
     margin-bottom: 1vw;
   }
 
@@ -58,12 +69,14 @@ p {
   }
 
   p {
-    font-weight: 300;
     font-size: 1vw;
     line-height: 1.75vw;
     margin-bottom: 1vw;
   }
 
+  .module {
+    padding: 0 3vw;
+  }
   .bg-container {
     padding: 6vw 0 8vw;
     background-size: contain;
@@ -72,12 +85,8 @@ p {
       place-items: center;
     }
   }
-  .column {
-  }
-
-  .row {
-  }
 }
+
 /* Media Query for Desktop Large, max width of the website */
 @media (min-width: 1600px) {
   // @media (min-width: 1200px) {
