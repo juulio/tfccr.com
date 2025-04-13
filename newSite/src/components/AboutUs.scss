@@ -1,12 +1,9 @@
 /* About Us styles */
 .about-us {
   img {
-    width: 25vw;
+    width: 75vw;
+    margin: 8vh 0 8.14vw;
     border-radius: 10px;
-  }
-
-  &.module {
-    padding: 0;
   }
 
   section {
@@ -14,8 +11,9 @@
   }
 
   .bg-container {
-    height: 32.5vw;
-
+    padding-bottom: 13vh;
+    background-size: cover;
+    background-repeat: repeat-x;
     background-image: url(../../public/bg_equipo.webp);
 
     section {
@@ -23,15 +21,35 @@
     }
   }
 
-  /* Media Query for Desktop Large, max width of the website */
-  @media (min-width: 1600px) {
+  .module {
+    margin-top: 0;
+  }
+
+  /* Media Query for tablet and desktop*/
+  @media (min-width: 768px) {
     .bg-container {
-      height: 520px;
-      padding: 96px 0 128px;
+      padding: 7vw 0 9vw;
+      background-size: contain;
     }
 
     img {
-      width: 400px;
+      width: 21.875vw;
+      margin: 0;
+    }
+
+    section {
+      margin-bottom: 0;
+    }
+  }
+
+  /* Media Query for Desktop Large, max width of the website */
+  @media (min-width: 1600px) {
+    .bg-container {
+      padding: 112px 0 144px;
+    }
+
+    img {
+      width: 350px;
     }
   }
 }
