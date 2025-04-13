@@ -37,15 +37,15 @@ const ImageSlider: React.FC = () => {
       <Slider {...settings}>
         <div id="sliderElement00">
           <img src={slider_asesoriaFinanciera} alt="Slide 1" />
-          <h2>{t('slide01')}</h2>
+          <h3>{t('slide01')}</h3>
         </div>
         <div id="sliderElement01">
           <img src={slider_ejecucionCursos} alt="Slide 2" />
-          <h2>{t('slide02')}</h2>
+          <h3>{t('slide02')}</h3>
         </div>
         <div id="sliderElement02">
           <img src={slider_experiencia} alt="Slide 3" />
-          <h2>{t('slide03')}</h2>
+          <h3>{t('slide03')}</h3>
         </div>
       </Slider>
     </div>
