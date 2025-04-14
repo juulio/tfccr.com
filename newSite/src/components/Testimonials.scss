@@ -4,8 +4,10 @@
   text-align: center;
 
   .bg-container {
-    height: 20vw;
-    padding-top: 12vw;
+    padding-top: 24vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
     background-image: url('../../public/bg_testimonials.webp');
   }
 
@@ -50,6 +52,15 @@
       }
     }
   }
+
+  /* Media Query for tablet and desktop*/
+  @media (min-width: 768px) {
+    .bg-container {
+      // height: 20vw;
+      padding-top: 12vw;
+    }
+  }
+
   /* Media Query for Desktop Large, max width of the website */
   @media (min-width: 1600px) {
     margin-top: 80px;
