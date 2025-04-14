@@ -21,6 +21,7 @@ h2 {
 
 h3 {
   font-weight: 400;
+  margin-top: 5vw;
   color: #8e0047;
   font-size: 5.116vw;
   line-height: 3.33vw;
@@ -46,9 +47,9 @@ p {
   margin: 0 auto;
 }
 
-.module {
-  padding: 0 7.674vw;
-}
+// .module {
+//   padding: 0 7.674vw;
+// }
 
 /* Media Query for tablet and desktop*/
 @media (min-width: 768px) {
@@ -58,6 +59,7 @@ p {
   }
 
   h3 {
+    margin-top: 0;
     font-size: 1.67vw;
     margin-bottom: 1vw;
   }
