@@ -1,6 +1,6 @@
 /* Footer styles */
 .footer {
-  height: 4vw;
+  padding: 4vw 0;
   display: grid;
   color: #fff;
   background-color: #8e0047;
@@ -10,8 +10,13 @@
     letter-spacing: 0.15vw;
   }
 
+  /* Media Query for tablet and desktop*/
+  @media (min-width: 768px) {
+    padding: 1.5vw 0;
+  }
+
   /* Media Query for Desktop Large, max width of the website */
   @media (min-width: 1600px) {
-    height: 64px;
+    padding: 24px 0;
   }
 }
