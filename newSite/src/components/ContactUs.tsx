@@ -12,8 +12,8 @@ const Contact: React.FC = () => {
     <div className="contact-us">
       <div className="bg-container">
         <section className="max-width module">
-          <div className="column">
-            <img id="logo_footer" src={logo_footer} alt="Transcending Logo" />
+          <div className="column footer-logo-container">
+            <img src={logo_footer} alt="Transcending Logo" />
           </div>
           <div className="column">
             <h4>{t('titleContactUs')}</h4>

@@ -47,10 +47,6 @@ p {
   margin: 0 auto;
 }
 
-// .module {
-//   padding: 0 7.674vw;
-// }
-
 /* Media Query for tablet and desktop*/
 @media (min-width: 768px) {
   h2 {
@@ -119,5 +115,6 @@ p {
 
   section {
     gap: 20px;
+    grid-template-columns: 650px 650px;
   }
 }

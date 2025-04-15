@@ -76,5 +76,9 @@
     p {
       margin-left: 128px;
     }
+
+    section {
+      grid-template-columns: 721px 721px;
+    }
   }
 }
