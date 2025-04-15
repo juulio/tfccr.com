@@ -33,7 +33,7 @@ const ImageSlider: React.FC = () => {
   }
 
   return (
-    <div className="slider-container max-width">
+    <div className="top-slider slider-container max-width">
       <Slider {...settings}>
         <div id="sliderElement00">
           <img src={slider_asesoriaFinanciera} alt="Slide 1" />
