@@ -5,13 +5,21 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import './Testimonials.scss'
 
+// Define the Testimonial type
+interface Testimonial {
+  text: string
+  name: string
+  role: string
+}
+
 const Testimonials: React.FC = () => {
   const { t, ready } = useTranslation()
   if (!ready) return 'loading translations...'
 
-  const testimonials: object = t('testimonialsSlider', {
+  const testimonials: Array<Testimonial> = t('testimonialsSlider', {
     returnObjects: true,
-  })
+  }) as Array<Testimonial>
+
   const settings = {
     dots: false,
     infinite: true,
@@ -32,12 +40,12 @@ const Testimonials: React.FC = () => {
   }
 
   return (
-    <div className="testimonials">
+    <div id="testimonials" className="testimonials">
       <div className="bg-container">
         <div className="slider-container max-width">
           <h2>Testimonials</h2>
           <Slider {...settings}>
-            {testimonials.map((testimonial: string, index: number) => (
+            {testimonials.map((testimonial, index) => (
               <div key={index}>
                 <p>{testimonial.text}</p>
                 <p className="testimonial-person-name">{testimonial.name}</p>

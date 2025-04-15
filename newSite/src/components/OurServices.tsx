@@ -11,7 +11,7 @@ const AboutUs: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="our-services module max-width">
+    <div id="services" className="our-services module max-width">
       <h2>{t('titleServices')}</h2>
       <section>
         <div className="column mobileItem01">

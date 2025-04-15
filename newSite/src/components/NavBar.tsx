@@ -10,6 +10,10 @@ const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
 
+  const handleClick = () => {
+    setIsOpen(!isOpen)
+  }
+
   // Function to toggle the language
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'es' : 'en'
@@ -28,23 +32,31 @@ const Navbar: React.FC = () => {
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
           {/* Hamburger Menu Button (Mobile) */}
-          <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+          <button className="hamburger" onClick={handleClick}>
             {isOpen ? <Cross2Icon /> : <HamburgerMenuIcon />}
           </button>
 
           {/* Menu Items */}
           <ul>
             <li>
-              <a href="#">{t('about')}</a>
+              <a href="#about" onClick={handleClick}>
+                {t('about')}
+              </a>
             </li>
             <li>
-              <a href="#">{t('services')}</a>
+              <a href="#services" onClick={handleClick}>
+                {t('services')}
+              </a>
             </li>
             <li>
-              <a href="#">{t('testimonials')}</a>
+              <a href="#testimonials" onClick={handleClick}>
+                {t('testimonials')}
+              </a>
             </li>
             <li>
-              <a href="#">{t('contact')}</a>
+              <a href="#contact" onClick={handleClick}>
+                {t('contact')}
+              </a>
             </li>
             <li>
               <button className="lang-btn" onClick={toggleLanguage}>

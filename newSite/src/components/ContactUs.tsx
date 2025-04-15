@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="contact-us">
+    <div id="contact" className="contact-us">
       <div className="bg-container">
         <section className="max-width module">
           <div className="column footer-logo-container">
