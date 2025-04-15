@@ -8,7 +8,7 @@ const AboutUs: React.FC = () => {
   const { t } = useTranslation()
 
   return (
-    <div className="about-us">
+    <div id="aboutUs" className="about-us">
       <div className="max-width module">
         <h2>{t('titleAbout')}</h2>
         <h3>{t('subtitleOurFirm')}</h3>

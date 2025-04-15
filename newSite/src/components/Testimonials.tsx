@@ -43,7 +43,7 @@ const Testimonials: React.FC = () => {
     <div id="testimonials" className="testimonials">
       <div className="bg-container">
         <div className="slider-container max-width">
-          <h2>Testimonials</h2>
+          <h2>{t('titleTestimonials')}</h2>
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (
               <div key={index}>

@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
           {/* Menu Items */}
           <ul>
             <li>
-              <a href="#about" onClick={handleClick}>
+              <a href="#aboutUs" onClick={handleClick}>
                 {t('about')}
               </a>
             </li>
