@@ -1,0 +1,159 @@
+/* Navbar styles */
+.navbar {
+  z-index: 10;
+  width: 100%;
+  padding: 10px 0;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Navbar Container */
+.nav-container {
+  display: flex;
+  padding: 10px 0 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+}
+
+/* Logo Image */
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+/* Hide the hamburger button on Desktop */
+.hamburger {
+  top: 25px;
+  right: 5px;
+  z-index: 5;
+  border: none;
+  display: none;
+  cursor: pointer;
+  color: #8e0047;
+  background: none;
+  position: absolute;
+
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+#body-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  display: none;
+}
+
+/* Language Button */
+.lang-btn {
+  background: none;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  gap: 8px;
+}
+
+.flag-icon {
+  width: 20px;
+  height: 14px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Side menu (initially hidden, will slide in when toggled) */
+  .nav-links {
+    transition: right 0.5s ease;
+    right: -45vw;
+
+    ul {
+      top: 50px;
+      width: 100%;
+      z-index: 100;
+      display: none;
+      overflow: auto;
+      margin-top: 33px;
+      position: absolute;
+    }
+
+    &.open {
+      top: 0;
+      right: 0;
+      z-index: 100;
+      width: 45vw;
+      padding: 13px;
+      position: fixed;
+      background-color: #fff;
+      height: 100%;
+
+      .hamburger {
+        right: 25px;
+      }
+
+      ul {
+        display: block;
+        background-color: #fff;
+      }
+
+      li {
+        border-top: solid 1px rgba(255, 255, 255, 0.03);
+        border-top-color: rgba(0, 0, 0, 0.03);
+
+        a {
+          font-size: 4vw;
+          padding-left: 1vw;
+          line-height: 15vw;
+        }
+      }
+    }
+  }
+
+  #body-overlay.open {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  /* Language Button */
+  .lang-btn {
+    width: 100%;
+    height: 40px;
+  }
+
+  .flag-icon {
+    margin: 0 auto;
+  }
+}
+
+/* Media Query for tablet and desktop*/
+@media (min-width: 768px) {
+  .navbar {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}

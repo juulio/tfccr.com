@@ -1,0 +1,120 @@
+/* General Styles */
+body,
+h1,
+h2,
+a {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 3vw;
+  color: #f0640f;
+  font-weight: 700;
+  font-size: 8.372vw;
+  margin-bottom: 4.65vw;
+}
+
+h3 {
+  font-weight: 400;
+  margin-top: 5vw;
+  color: #8e0047;
+  font-size: 5.116vw;
+  line-height: 3.33vw;
+  margin-bottom: 3.488vw;
+}
+
+h4 {
+  font-size: 1.5vw;
+  color: #f0640f;
+}
+
+p {
+  font-weight: 300;
+  font-size: 3.721vw;
+  text-align: justify;
+  line-height: 4.419vw;
+  margin-bottom: 3.488vw;
+}
+
+/* Common stuff for all modules*/
+.max-width {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Media Query for tablet and desktop*/
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.25vw;
+    margin-bottom: 2.5vw;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-size: 1.67vw;
+    margin-bottom: 1vw;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    gap: 1.25vw; /* Optional gap between columns */
+  }
+
+  p {
+    font-size: 1vw;
+    line-height: 1.75vw;
+    margin-bottom: 1vw;
+  }
+
+  .module {
+    padding: 0 3vw;
+  }
+  .bg-container {
+    padding: 6vw 0 8vw;
+    background-size: contain;
+
+    section {
+      place-items: center;
+    }
+  }
+}
+
+/* Media Query for Desktop Large, max width of the website */
+@media (min-width: 1600px) {
+  // @media (min-width: 1200px) {
+  h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 27px;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .module {
+    margin-top: 60px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  section {
+    gap: 20px;
+    grid-template-columns: 650px 650px;
+  }
+}

@@ -1,3 +1,5 @@
-# tfccr.com
+# TFCCR.com
 
-Transcending CR - Margarita Reina
+# Transcending
+
+# Site built using React + TypeScript + Vite
