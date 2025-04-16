@@ -12,9 +12,6 @@ const Contact: React.FC = () => {
     <div id="contact" className="contact-us">
       <div className="bg-container">
         <section className="max-width module">
-          <div className="column footer-logo-container">
-            <img src={logo_footer} alt="Transcending Logo" />
-          </div>
           <div className="column">
             <h4>{t('titleContactUs')}</h4>
             <p>
@@ -27,7 +24,6 @@ const Contact: React.FC = () => {
                 (506) 7281-7421
               </a>
             </p>
-
             <p>
               <img src={svg_envelope} alt="Envelope" />
               <a
@@ -38,6 +34,9 @@ const Contact: React.FC = () => {
                 contact@tfccr.com
               </a>
             </p>
+          </div>
+          <div className="column footer-logo-container">
+            <img src={logo_footer} alt="Transcending Logo" />
           </div>
         </section>
       </div>
