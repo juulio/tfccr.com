@@ -18,6 +18,7 @@ const Navbar: React.FC = () => {
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'es' : 'en'
     i18n.changeLanguage(newLang)
+    setIsOpen(!isOpen)
   }
 
   return (
