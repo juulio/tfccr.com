@@ -2,7 +2,7 @@
 .about-us {
   img {
     width: 75vw;
-    margin: 8vh 0 8.14vw;
+    margin: 10vh 0 8.14vw;
     border-radius: 10px;
   }
 
@@ -11,9 +11,10 @@
   }
 
   .bg-container {
-    padding-bottom: 13vh;
+    padding-bottom: 12vh;
     background-size: cover;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: top;
     background-image: url(../../public/bg_equipo.webp);
 
     section {
@@ -30,7 +31,7 @@
   @media (min-width: 768px) {
     .bg-container {
       padding: 7vw 0 9vw;
-      background-size: contain;
+      // background-size: contain;
       background-size: 120% 95%;
     }
 
@@ -48,6 +49,7 @@
   @media (min-width: 1600px) {
     .bg-container {
       padding: 112px 0 144px;
+      background-repeat: repeat-x;
     }
 
     img {
