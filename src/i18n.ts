@@ -64,7 +64,7 @@ const resources = {
         {
           text: 'I worked with Margarita for six months on a consulting project. She demonstrated a strong analytical capacity combined with excellent management of the company’s financial information databases. The analysis she carried out was the primary input on which we based the action plan we presented to the client.',
           name: 'Oscar Rodríguez Ulloa',
-          role: 'Gerente General de la Organización Luis Carlos Sarmiento Angulo',
+          role: '',
         },
         {
           text: 'Margarita is one of the most serious and dedicated professionals I’ve encountered in my career. We worked together at the holding company of Colombia’s largest financial group, and every interaction with her was both an intellectual and personal privilege. It was also an opportunity to learn from her broad skill set. Her ability to transform numbers and data analysis into robust financial tools that support corporate decisions is as admirable as her discipline, clarity in communication, and fluency in designing and leading the implementation of effective business strategies.',
@@ -145,7 +145,7 @@ const resources = {
         {
           text: 'Trabajé con Margarita durante 6 meses en un proyecto de consultoría. Ella demostró contar con una capacidad analítica fuerte unida a un muy buen manejo de las bases de datos de la información financiera de la empresa. El análisis realizado, fue el principal insumo en el cual nos basamos para elaborar el plan de acción presentado al cliente.',
           name: 'Oscar Rodríguez Ulloa',
-          role: 'Gerente General de la Organización Luis Carlos Sarmiento Angulo',
+          role: '',
         },
         {
           text: 'Margarita es una de las profesionales más serias y comprometidas que he conocido a lo largo de mi carrera. Trabajamos juntos en la holding company del mayor grupo financiero de Colombia e interactuar con ella siempre fue un privilegio a nivel intelectual y personal, así como una oportunidad para aprender de sus amplias capacidades. Su habilidad para convertir cifras y análisis numéricos en robustas herramientas financieras para soportar decisiones corporativas es tan admirable como su disciplina, su claridad comunicativa y su fluidez para diseñar y liderar la implementación de acertadas estrategias empresariales',
